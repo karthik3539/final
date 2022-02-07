@@ -1,0 +1,24 @@
+
+//Class Names
+@import '_classNames';
+
+//Mixins
+@import '_mixins';
+
+//Modules
+@import '_modules';    
+
+//DOM Structure
+@import '_structure';   
+
+
+.inc_pdp_product-main_block{
+    .bundle-disable{
+        display: none !important;
+    }
+    }
+    .inc_product_modal_block{
+    .bundle-disable, .btn-disable-modal{
+        display: none !important;
+    }
+}
